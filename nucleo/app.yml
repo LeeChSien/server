@@ -1,10 +1,10 @@
 platform: nodejs11
 
 ports:
-  - 1234:80
+  - 3000:80
 
 scale:
   replicas: 1
 
 cmd:
-  start: bin/server --port 1234
+  start: bin/server --port 3000
